@@ -5,9 +5,11 @@ module.exports = {
     // More on: https://docs.layer0.co/guides/layer0_config#backends
     legacy: {
       domainOrIp: 'ros-layer0-nextjs-example-default.layer0-limelight.link',
+      disableCheckCert: true,
     },
     new: {
       domainOrIp: 'ros-layer0-nextjs-example-new-default.layer0-limelight.link',
+      disableCheckCert: true,
     },
 
     api: {
