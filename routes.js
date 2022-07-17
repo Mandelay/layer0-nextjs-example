@@ -61,6 +61,7 @@ const API_CACHE_HANDLER = ({ cache, proxy }) => {
   proxy('api', { path: ':path*' })
 }
 
+const { Router } = require('@layer0/core/router')
 module.exports = new Router()
  .destination(
     'legacy_experience', // displayed in the destination dropdown in the traffic splitting section of your environment configuration in the Layer0 Developer Console
