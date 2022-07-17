@@ -61,20 +61,19 @@ const API_CACHE_HANDLER = ({ cache, proxy }) => {
   proxy('api', { path: ':path*' })
 }
 
-const { Router } = require('@layer0/core/router')
 module.exports = new Router()
- .destination(
-    'legacy_experience', // displayed in the destination dropdown in the traffic splitting section of your environment configuration in the Layer0 Developer Console
-    new Router()
-      // additional routing rules for the legacy experience go here
-      .fallback(({ proxy }) => proxy('legacy')),
-  )
-  .destination(
-    'new_experience', // displayed in the destination dropdown in the traffic splitting section of your environment configuration in the Layer0 Developer Console
-    new Router()
-      // additional routing rules for the new experience go here
-      .fallback(({ proxy }) => proxy('new')),
-  )
+//  .destination(
+//     'legacy_experience', // displayed in the destination dropdown in the traffic splitting section of your environment configuration in the Layer0 Developer Console
+//     new Router()
+//       // additional routing rules for the legacy experience go here
+//       .fallback(({ proxy }) => proxy('legacy')),
+//   )
+//   .destination(
+//     'new_experience', // displayed in the destination dropdown in the traffic splitting section of your environment configuration in the Layer0 Developer Console
+//     new Router()
+//       // additional routing rules for the new experience go here
+//       .fallback(({ proxy }) => proxy('new')),
+//   )
   .get(
     {
       headers: {
