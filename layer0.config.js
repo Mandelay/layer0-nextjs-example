@@ -4,8 +4,10 @@ module.exports = {
     // Define a domain or IP address to proxy as a backend
     // More on: https://docs.layer0.co/guides/layer0_config#backends
     legacy: {
-      domainOrIp: 'ros-layer0-nextjs-example-default.layer0-limelight.link',
-      hostHeader: 'ros-layer0-nextjs-example-default.layer0-limelight.link',
+//       domainOrIp: 'ros-layer0-nextjs-example-default.layer0-limelight.link',
+//       hostHeader: 'ros-layer0-nextjs-example-default.layer0-limelight.link',
+      domainOrIp: 'dou.ua',
+      hostHeader: 'dou.ua',
       disableCheckCert: true,
     },
     new: {
