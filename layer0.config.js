@@ -7,7 +7,7 @@ module.exports = {
 //       domainOrIp: 'ros-layer0-nextjs-example-default.layer0-limelight.link',
 //       hostHeader: 'ros-layer0-nextjs-example-default.layer0-limelight.link',
       domainOrIp: 'dou.ua',
-      hostHeader: 'dou.ux'
+      hostHeader: 'dou.ua'
 //       domainOrIp: 'docs.layer0.co',
 //       domainOrIp: 'developer.mozilla.org',
       disableCheckCert: true,
