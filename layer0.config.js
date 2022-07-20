@@ -6,13 +6,11 @@ module.exports = {
     legacy: {
 //       domainOrIp: 'ros-layer0-nextjs-example-default.layer0-limelight.link',
 //       hostHeader: 'ros-layer0-nextjs-example-default.layer0-limelight.link',
-      domainOrIp: 'dou.ua',
-      hostHeader: 'dou.ua',
+      domainOrIp: 'docs.layer0.co',
       disableCheckCert: true,
     },
     new: {
       domainOrIp: 'ros-layer0-nextjs-example-new-default.layer0-limelight.link',
-      hostHeader: 'ros-layer0-nextjs-example-new-default.layer0-limelight.link',
       disableCheckCert: true,
     },
 
