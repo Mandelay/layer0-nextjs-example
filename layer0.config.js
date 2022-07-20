@@ -7,12 +7,14 @@ module.exports = {
 //       domainOrIp: 'ros-layer0-nextjs-example-default.layer0-limelight.link',
 //       hostHeader: 'ros-layer0-nextjs-example-default.layer0-limelight.link',
       domainOrIp: 'dou.ua',
+      hostHeader: 'dou.ux'
 //       domainOrIp: 'docs.layer0.co',
 //       domainOrIp: 'developer.mozilla.org',
       disableCheckCert: true,
     },
     new: {
       domainOrIp: 'ros-layer0-nextjs-example-new-default.layer0-limelight.link',
+      hostHeader: 'ros-layer0-nextjs-example-new-default.layer0-limelight.link',
       disableCheckCert: true,
     },
 
